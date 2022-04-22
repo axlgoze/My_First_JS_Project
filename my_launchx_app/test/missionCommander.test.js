@@ -1,8 +1,10 @@
 //importando clase
 const MissionCommander = require('./../app/missionCommander');
-describe("Esto es una suite de pruebas", () => {
-	test('Caso de prueba 1', () => {
-		const result = 1 + 2
+//description of the test
+describe("Unit Tests for MissionCommander Class", () => {
+	test('1) Create a mission commander object', () => {
+	//código
+		const myMissionCommander = new MissionCommander("Woopa")
 		expect(result).toBe(3);
 	});
 })
