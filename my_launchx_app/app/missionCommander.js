@@ -4,3 +4,6 @@ class MissionCommander{
 	 this.name = name; //atributo name
 	}
 }
+
+//exportando módulo
+module.exports = MissionCommander
