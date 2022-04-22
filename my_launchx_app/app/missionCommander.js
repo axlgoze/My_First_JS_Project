@@ -1,6 +1,6 @@
 //Creando clase
 class MissionCommander{
-	constructor (){
-	 
+	constructor (name){
+	 this.name = name; //atributo name
 	}
 }
